@@ -1,9 +1,15 @@
-n this implementation, the caesar_cipher() function takes two parameters: message and shift. The message parameter is the message to be encrypted, and the shift parameter is the number of positions to shift each letter down the alphabet.
+To use this code, save it to a file (e.g. cipher.py) and run it using Python. The program will prompt the user to enter the message to encrypt and the shift value. It will then encrypt the message using the Caesar Cipher and print the encrypted message.
 
-The function initializes an empty string to store the encrypted message, and then loops through each letter in the input message. For each letter, the function checks whether it is a lowercase or uppercase letter, applies the shift value, and converts the result back to a letter. The encrypted letter is then added to the encrypted_message string.
+Here are the instructions for installation and usage:
 
-Finally, the function returns the encrypted message.
+Installation:
 
-To use this implementation, you can call the caesar_cipher() function with a message and a shift value. The function will return the encrypted message, which you can then use as needed.
+Install Python if you don't already have it installed. You can download Python from the official website: https://www.python.org/downloads/
+Save the code to a file (e.g. caesar_cipher.py).
+Usage:
 
-Note that this implementation only works for the English alphabet. If you want to use the Caesar Cipher for a different language or character set, you will need to modify the code accordingly.
+Open a command prompt or terminal window.
+1. Navigate to the directory where the caesar_cipher.py file is saved.
+2. Run the command python caesar_cipher.py.
+3. Enter the message to encrypt and the shift value when prompted.
+4. The program will encrypt the message using the Caesar Cipher and print the encrypted message.

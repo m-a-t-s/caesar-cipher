@@ -1,6 +1,3 @@
-# This is a Python implementation of the Caesar Cipher
-# The program takes a message and a shift value as input and outputs the encrypted message
-
 def caesar_cipher(message, shift):
     # Initialize an empty string to store the encrypted message
     encrypted_message = ""
@@ -30,7 +27,13 @@ def caesar_cipher(message, shift):
     
     return encrypted_message
 
-# Example usage:
-# Encrypt the message "HELLO WORLD" with a shift of 3
-encrypted_message = caesar_cipher("HELLO WORLD", 3)
-print(encrypted_message)  # Output: KHOOR ZRUOG
+if __name__ == '__main__':
+    # Get the message and shift from the user
+    message = input("Enter the message to encrypt: ")
+    shift = int(input("Enter the shift value: "))
+    
+    # Encrypt the message using the Caesar Cipher
+    encrypted_message = caesar_cipher(message, shift)
+    
+    # Print the encrypted message
+    print("Encrypted message:", encrypted_message)
